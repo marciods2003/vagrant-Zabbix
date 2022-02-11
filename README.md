@@ -12,6 +12,6 @@ instalacaoZabbixServer.sh
 
 Pré-Requisitos
 
-VirtualBox ![image](https://github.com/marciods2003/vagrant-Zabbix.git/tree/main/img/virtualbox.png)
+VirtualBox <img src="https://lhttps://github.com/marciods2003/vagrant-Zabbix.git/tree/main/img/virtualbox.png" width="100" height="100"/>
 
 Vagrant ![image](https://github.com/marciods2003/vagrant-Zabbix.git/tree/main/img/vagrant.png)
