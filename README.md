@@ -12,6 +12,6 @@ instalacaoZabbixServer.sh
 
 Pré-Requisitos
 
-![Virtualbox](img/virtualbox.png/200/200)
+![Virtualbox](img/virtualbox.png/200/200?)
 
-![Vagrant](img/vagrant.png/200/200)
+![Vagrant](img/vagrant.png/200/200?)
