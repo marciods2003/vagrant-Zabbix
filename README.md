@@ -10,3 +10,10 @@ zabbix.sh
 instalacaoZabbixServer.sh
 </pre>
 
+Pré-Requisitos
+<pre>
+
+VirtualBox
+Vagrant
+
+</pre>
