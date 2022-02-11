@@ -21,7 +21,7 @@ fi
 apt update &&
 apt install git vim -y &&
 timedatectl set-timezone America/Sao_Paulo
-cd /home/cda
+cd /home/admzabbix
 su cda
 ssh-keygen -b 2048 -t rsa -f id_rsa -q -N '' &&
 sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
