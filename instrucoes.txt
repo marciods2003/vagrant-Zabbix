@@ -1,0 +1,47 @@
+#######################################################################################
+#
+#   Para a criação do ambiente de teste usando Virtualbox e Vagrant voce precita 
+#   ter os pacotes deles instalados (Ambiente descrito usando o Debian 11 como host)
+# 
+#   Instruções de instalação de cada voce pode encontar nos sites oficiais
+#   -> Virtualbox https://www.virtualbox.org/wiki/Linux_Downloads
+#   -> Vagrant https://www.vagrantup.com/downloads
+#
+#   Voce tambem ira precisar ter o git instalado, caso nao o tenha faça:
+#   $ apt install git -y
+#
+#   Agora clonamos o diretorio com o Vagrantfile 
+#   git clone https://github.com/marciods2003/vagrant-Zabbix.git
+#
+#   Entre no diretorio clonado
+#   $ cd vagrant-Zabbix
+#   
+#   Edite o arquivo Vagrantfile linha numero 20 alterando para sua rede LAN 
+#   parametro -> ip: "192.168.2.#{conf["ip"]}"  
+#
+#   Voce pode mudar o IP do servidor Zabbix alterando a linha numero 11
+#   parametro ->  "ip" => "190"
+#
+#   Execute o comando para verificar se esta tudo ok 
+#   $ vagrant status
+#   
+#   A saida devera ser essa 
+
+Current machine states:
+
+zabbix                    not created (virtualbox)
+
+The environment has not yet been created. Run `vagrant up` to
+create the environment. If a machine is not created, only the
+default provider will be shown. So if a provider is not listed,
+then the machine is not created for that environment.
+
+#
+#   Tudo ok, basta subir o ambiente com o comando 
+#   $ vagrant up
+#
+#   Apos finalizar basta acessar a VM para finalizar a instalação do zabbix 
+#   seguindo as orientações do arquivos /home/admzabbix/scripts/README
+#
+#   
+# #######################################################################################
